@@ -207,9 +207,9 @@
     column-gap: 20px;
   }
   /* ---------------------------------------FOOTER------------------------------------------ */
-.footer{
+ footer{
     width: 94%;
-    margin-left: 70px;
+    /* margin-left: 70px; */
     margin-top: 55px;
 }
 .row{
@@ -219,4 +219,13 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+    margin-left: 45px;
+} 
+@media screen and (max-width: 480px) {
+    .rights{
+        margin-left: -5px;
+    }
+    .rights .btn{
+        margin-right: -19px;
+    }
 }
